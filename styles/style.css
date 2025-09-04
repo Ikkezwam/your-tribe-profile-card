@@ -1,9 +1,9 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-circle;
 }
 
 html:has(.profile-card-example) {
-  height: 100vh;
+  height: 80vh;
 }
 
 body:has(.profile-card-example) {
@@ -79,7 +79,7 @@ button.profile-card-example-button svg:nth-of-type(2) {
 .profile-card-example-img {
   position: relative;
   top: 2rem;
-  width: 10em;
+  width: 13em;
   height: auto;
   border: 5px solid #1a0000;
   border-radius: 10em;
@@ -136,9 +136,11 @@ button.profile-card-example-button svg:nth-of-type(2) {
 }
 
 .profile-card-example > p {
-  width: 100%;
+  width: 84%;
   margin-top: 0;
   padding: 3rem 2rem;
+  border: 3px solid #1a0000;
+  border-radius: 10em;
   border-radius: 0 0 1rem 1rem;
   text-align: center;
   background: rgba(128, 0, 32, 0.5);
@@ -146,12 +148,12 @@ button.profile-card-example-button svg:nth-of-type(2) {
 }
 
 body.is-expanded {
-  font-size: 1.15em;
+  font-size: 1.30em;
 }
 
 body.is-expanded .profile-card-example {
-  width: 60vw;
-  max-width: 60vw;
+  width: 70vw;
+  max-width: 70vw;
 }
 
 body.is-expanded .profile-card-example-button svg:first-of-type {
