@@ -152,8 +152,8 @@ body.is-expanded {
 }
 
 body.is-expanded .profile-card-example {
-  width: 70vw;
-  max-width: 70vw;
+  width: 60vw;
+  max-width: 60vw;
 }
 
 body.is-expanded .profile-card-example-button svg:first-of-type {
@@ -171,5 +171,5 @@ body.is-expanded .profile-card-example-dl dd {
 }
 
 body.is-expanded .profile-card-example-img {
-  width: 15em;
+  width: 10em;
 }
