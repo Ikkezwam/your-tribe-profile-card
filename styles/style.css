@@ -2,6 +2,11 @@
   box-sizing: border-circle;
 }
 
+body{
+  background-image:url("../eenzame-boom.jpg");
+}
+
+
 html:has(.profile-card-example) {
   height: 80vh;
 }
